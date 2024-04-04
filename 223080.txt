@@ -1,0 +1,40 @@
+1. 2. 3. done
+4. SI_2024_lab1_223080 remote repo
+5. git remote add origin https://github.com/AnSimona/SI_2024_lab1_223080.git
+6. echo "Simona Angjelkovska 223080" >> README.md
+git init
+git add README.md
+git commit -m "Initial commit"
+7. git add .
+git commit -m "Add starter code"
+8. git push -u origin master
+9. git branch bug1
+git branch bug2
+10. git checkout bug1
+11. поправена е грешката 
+git add SILab1_1.java
+git commit -m "Fix wrong condition in filterOddLengthStrings"
+12. git checkout bug2
+13. поправена е грешката 
+git add SILab1_2.java
+git commit -m "Fix wrong condition in makeBigStringFrom"
+14. git checkout bug1
+15. dodaden e povikot
+git add SILab1Main.java
+git commit -m "Call method filterOddLengthStrings in main class"
+16. git checkout bug2
+17. git add SILab1Main.java
+git commit -m "Call method makeBigStringFrom in main class"
+18. git push --all
+19. git checkout master
+20. git merge bug1
+21. git push --all
+22. git checkout bug2
+23. git rebase master 
+се појави конфликт, го решив така што знаците ги избришав 
+24. git checkout master
+25. git merge bug2 нема конфликт
+26. git push -all
+git push --force
+тука има конфликт при синхронизација
+27. git push --force --all со remote repo ги синхронизирав
